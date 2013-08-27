@@ -1,25 +1,25 @@
 
-mkvirtualenv <name>
+mkvirtualenv <name>     - creates new virtualenv
     
-lsvirtualenv
+lsvirtualenv            - lists available virtualenvs
     
-rmvirtualenv <name>
+rmvirtualenv <name>     - removes virtualenv
     
-workon [<name>]
+workon [<name>]         - activates virtualenv
     
-deactivate
+deactivate              - deactivates current virtualenv
     
-add2virtualenv <full or relative path>
+add2virtualenv <path>   - adds paths to .pth (try `add2virtualenv .`)
     
-cdproject
+cdproject               - changes dir to project dir (set it with `setprojectdir`)
     
-cdsitepackages
+cdsitepackages          - changes dir to site-packages dir
     
-cdvirtualenv
+cdvirtualenv            - changes dir to virtualenv dir
     
-lssitepackages
+lssitepackages          - lists site-packages
     
-setprojectdir <full or relative path>
+setprojectdir <path>    - sets path as project path
         
 toggleglobalsitepackages    
     
