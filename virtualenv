@@ -1,0 +1,27 @@
+
+mkvirtualenv <name>
+    
+lsvirtualenv
+    
+rmvirtualenv <name>
+    
+workon [<name>]
+    
+deactivate
+    
+add2virtualenv <full or relative path>
+    
+cdproject
+    
+cdsitepackages
+    
+cdvirtualenv
+    
+lssitepackages
+    
+setprojectdir <full or relative path>
+        
+toggleglobalsitepackages    
+    
+whereis <file>
+    
